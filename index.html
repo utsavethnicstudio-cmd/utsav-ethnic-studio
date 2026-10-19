@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#4a101b">
+<meta name="description" content="Utsav Ethnic Studio — Exclusive showroom for Sherwani, Coat Pant and Kurta Pajama in Gorakhpur.">
+<title>Utsav Ethnic Studio | Exclusive Showroom</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><img src="logo.webp" alt="Utsav Ethnic Studio logo"></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+  <nav id="mainNav"><a href="#collections">Collections</a><a href="#about">About</a><a href="#visit">Visit Us</a><a class="nav-cta" id="navWhatsApp" href="#">WhatsApp</a></nav>
+</header>
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">CELEBRATE EVERY OCCASION</p>
+    <h1>Tradition, tailored<br><span>for your moment.</span></h1>
+    <p>Discover elegant ethnic and occasion wear for weddings, celebrations and every special moment.</p>
+    <div class="hero-actions"><a class="button button-gold" href="#collections">Explore Collection</a><a class="button button-outline" id="heroWhatsApp" href="#">Enquire on WhatsApp</a></div>
+  </div>
+  <div class="hero-art"><div class="hero-frame"><img src="logo.webp" alt="Utsav Ethnic Studio"></div><span class="hero-stamp">EXCLUSIVE<br>SHOWROOM</span></div>
+</section>
+<section class="section" id="collections">
+  <div class="section-heading"><p class="eyebrow">OUR SELECTION</p><h2>Find your occasion look</h2><p>Explore our latest styles. Contact us for sizes, availability and prices.</p></div>
+  <div id="productGrid" class="product-grid"><div class="loading">Loading collection…</div></div>
+  <p id="emptyMessage" class="empty-message" hidden>Our collection is being updated. Please contact us on WhatsApp for current styles.</p>
+</section>
+<section class="feature-band" id="about"><p class="eyebrow">UTSAV ETHNIC STUDIO</p><h2>Make every celebration memorable.</h2><p>Exclusive showroom for Sherwani, Coat Pant &amp; Kurta Pajama.</p><a class="button button-light" id="aboutWhatsApp" href="#">Ask about our collection</a></section>
+<section class="visit section" id="visit"><div><p class="eyebrow">COME SAY HELLO</p><h2>Visit our showroom</h2><p>Golghar Central, Near Haldiram Restaurant,<br>2nd Floor, Shop No. 25, Gorakhpur, Uttar Pradesh</p><p><strong>Call:</strong> <a id="phoneLink" href="tel:+9198235345">9198235345</a></p><div class="hero-actions"><a class="button button-maroon" id="callButton" href="tel:+9198235345">Call Now</a><a class="button button-outline-dark" id="mapLink" href="#" target="_blank" rel="noopener">Get Directions</a></div></div><div class="visit-card"><span>✦</span><h3>Style for every celebration</h3><p>Wedding • Festive • Formal • Family occasions</p></div></section>
+</main>
+<footer><img src="logo.webp" alt="" class="footer-logo"><p>© <span id="year"></span> Utsav Ethnic Studio. All rights reserved.</p><a href="admin.html">Admin Login</a></footer>
+<a class="floating-whatsapp" id="floatingWhatsApp" href="#" aria-label="Chat on WhatsApp">WhatsApp</a>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="config.js"></script><script src="app.js"></script>
+</body></html>
